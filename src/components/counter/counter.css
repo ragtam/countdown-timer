@@ -5,9 +5,7 @@
     width: min(100vw, 30rem);
     height: min(100vw, 30rem);
     border-radius: 50%;
-    border-color: var(--colors-light-success);
-    border-width: 10px;
-    border-style: solid;
+    border: 5px solid var(--colors-light-success) ;
 }
 
 .counter > div {

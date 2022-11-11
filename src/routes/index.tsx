@@ -7,6 +7,9 @@ export default component$(() => {
     <div>
       <h2>Countdown Timer</h2>
 
+        <Link class="mindblow" href="/colors">
+            Colors
+        </Link>
       <Link class="mindblow" href="/flower">
         Blow my mind 🤯
       </Link>

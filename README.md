@@ -1,3 +1,6 @@
+# Notes
+https://coolors.co/040f0f-248232-2ba84a-2d3a3a-fcfffc
+
 # Qwik App ⚡️
 
 - [Qwik Docs](https://qwik.builder.io/)

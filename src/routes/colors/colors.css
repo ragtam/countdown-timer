@@ -1,0 +1,29 @@
+.colors__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    min-height: 50vh;
+}
+
+.colors__container div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+    text-transform: capitalize;
+}
+
+.colors__container :nth-child(1) {
+    background-color: var(--colors-black);
+}
+.colors__container :nth-child(2) {
+    background-color: var(--colors-red);
+}
+.colors__container :nth-child(3) {
+    background-color: var(--colors-purple);
+}
+.colors__container :nth-child(4) {
+    background-color: var(--colors-green);
+}
+.colors__container :nth-child(5) {
+    background-color: var(--colors-white);
+}

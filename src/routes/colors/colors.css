@@ -13,17 +13,17 @@
 }
 
 .colors__container :nth-child(1) {
-    background-color: var(--colors-black);
+    background-color: var(--colors-light-foreground);
 }
 .colors__container :nth-child(2) {
-    background-color: var(--colors-red);
+    background-color: var(--colors-light-alert);
 }
 .colors__container :nth-child(3) {
-    background-color: var(--colors-purple);
+    background-color: var(--colors-light-accent);
 }
 .colors__container :nth-child(4) {
-    background-color: var(--colors-green);
+    background-color: var(--colors-light-success);
 }
 .colors__container :nth-child(5) {
-    background-color: var(--colors-white);
+    background-color: var(--colors-light-background);
 }

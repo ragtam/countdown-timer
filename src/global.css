@@ -7,14 +7,14 @@
  */
 
 :root {
-  --colors-black: #25283d;
-  --colors-red: #f34213;
-  --colors-purple: #8f3985;
-  --colors-green: #6ba292;
-  --colors-white: #fcfffc;
+  --colors-light-foreground: #25283d;
+  --colors-light-alert: #e85f5c;
+  --colors-light-accent: #dfd9e2;
+  --colors-light-success: #6ba292;
+  --colors-light-background: #fcfffc;
 }
 
 body {
-  background-color: var(--colors-white);
+  background-color: var(--colors-light-background);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }

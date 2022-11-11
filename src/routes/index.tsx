@@ -1,18 +1,12 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import { Link } from '@builder.io/qwik-city';
+import Counter from "~/components/counter/counter";
 
 export default component$(() => {
   return (
-    <div>
-      <h2>Countdown Timer</h2>
-
-        <Link class="mindblow" href="/colors">
-            Colors
-        </Link>
-      <Link class="mindblow" href="/flower">
-        Blow my mind 🤯
-      </Link>
+    <div class="host">
+        <Counter></Counter>
     </div>
   );
 });

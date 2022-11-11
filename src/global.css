@@ -17,4 +17,13 @@
 body {
   background-color: var(--colors-light-background);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.host {
+  display: grid;
+  min-height: 100vh;
+  align-content: center;
+  justify-content: center;
 }

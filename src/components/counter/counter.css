@@ -1,0 +1,16 @@
+.counter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: min(100vw, 30rem);
+    height: min(100vw, 30rem);
+    border-radius: 50%;
+    border-color: var(--colors-light-success);
+    border-width: 10px;
+    border-style: solid;
+}
+
+.counter > div {
+    display: grid;
+    justify-items: center;
+}
